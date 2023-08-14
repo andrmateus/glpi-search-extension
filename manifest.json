@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "GLPI search",
+    "version": "0.0.1",
+    "description": "Search into GLPI ",    
+    
+    "action":{
+        "default_icon": "icons/fd_logo.png",
+        "default_popup": "index.html",
+        "default_title": "GLPI"
+    },
+    "permissions": ["storage"]
+}

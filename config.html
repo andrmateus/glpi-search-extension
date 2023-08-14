@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body style="width: 400px;">
+    <div class="container">
+        <!-- header -->
+        <div class="row mb-2 py-1" style="background-color: #2F3F64;">
+            <div class="col-4 text-center">
+                <img src="icons\fd_logo.png" alt="logo" class="custom-img">
+            </div>
+            <div class="col-6 text-light text-center text-start d-flex align-items-center justify-content-center">
+                <h1 class="align-middle">Configurações</h1>
+            </div>
+            <div class="col-2 d-flex align-items-center justify-content-center">
+                <a href="index.html">
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"/>
+                            <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"/>
+                          </svg>
+                    </button>
+                </a>
+            </div>
+        </div>
+        <!-- content -->
+        <div class="form-row align-items-center">
+            <p>Insira abaixo o domínio para acesso ao GLPI:</p>
+        </div>
+        <div class="form-inline">
+            <div class="col-auto">
+                <input type="text" name="domainInput" id="domainInput" class="form-control"
+                    placeholder="Domínio GLPI" aria-describedby="helpId">
+                <small id="helpId" class="text-muted"><b>Exemplo: minhaempresa.com.br</b></small>
+            </div>
+            <button type="submit" id="saveDomain" class="form-control btn btn-success">Salvar</button>
+        </div>
+        <!-- footer -->
+        <div class="row">
+            <footer class="text-end text-light pt-1 mt-2" style="background-color: #2F3F64;">
+                criado por <a href="https://github.com/andrmateus" class="text-light">Mateus André</a> - Versão 1.0.0
+            </footer>
+        </div>
+    </div>
+    <script src="js/config.js"></script>
+</body>
+
+</html>
