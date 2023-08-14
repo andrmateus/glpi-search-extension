@@ -31,17 +31,19 @@
             </div>
         </div>
         <!-- content -->
-        <div class="form-row align-items-center">
-            <p>Insira abaixo o domínio para acesso ao GLPI:</p>
-        </div>
-        <div class="form-inline">
-            <div class="col-auto">
-                <input type="text" name="domainInput" id="domainInput" class="form-control"
-                    placeholder="Domínio GLPI" aria-describedby="helpId">
-                <small id="helpId" class="text-muted"><b>Exemplo: minhaempresa.com.br</b></small>
+        <form id="configForm">
+            <div class="form-row align-items-center">
+                <p>Insira abaixo o domínio para acesso ao GLPI:</p>
             </div>
-            <button type="submit" id="saveDomain" class="form-control btn btn-success">Salvar</button>
-        </div>
+            <div class="form-inline">
+                <div class="col-auto">
+                    <input type="text" name="domainInput" id="domainInput" class="form-control"
+                        placeholder="Domínio GLPI" aria-describedby="helpId">
+                    <small id="helpId" class="text-muted"><b>Exemplo: minhaempresa.com.br</b></small>
+                </div>
+                <button type="submit" id="saveDomain" class="form-control btn btn-success">Salvar</button>
+            </div>
+            </form>
         <!-- footer -->
         <div class="row">
             <footer class="text-end text-light pt-1 mt-2" style="background-color: #2F3F64;">
